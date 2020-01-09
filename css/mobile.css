@@ -1,0 +1,705 @@
+/* 版心 */
+.banxin{
+    width: 1260px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 清除浮动 */
+.clearfix:before ,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+/* 顶部 */
+body{
+    width: 100%;
+    background-color: #fbf9f6;
+}
+
+.navigation-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #191919;
+}
+
+.navigation-logo{
+    float: left;
+    width: 233px;
+    height: 40px;
+    background-image: url(../image/logo-top.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.center-container{
+    float: left;
+    margin-left: 413px;
+}
+
+.center-container a{
+    text-decoration: none;
+    color: #8c8c8c;
+    line-height: 80px;
+    margin-right: 63px;
+    font-size: 15px;
+}
+.center-container .client{
+    padding: 30px 20px;
+    color: #fff;
+    margin-right: 43px;
+    background-color: #353535;
+}
+
+.navigation-bar-right{
+    float: right;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.navigation-bar-right a{
+    text-decoration: none;
+    color: #8c8c8c;
+    line-height: 10px;
+    font-size: 15px;
+    margin-left: 19px;
+}
+
+.download{
+    padding: 14px 22px;
+    border: 1px solid #303030;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.navigation-bar-right .register{
+    margin-right: 50px;
+}
+
+/* 第一部分 */
+.first-part{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../image/mobile-one-big-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.first-part-right{
+    position: absolute;
+    top: 285px;
+    left: 50%;
+    margin-left: 135px;
+}
+
+.palm{
+    float: left;
+    width: 223px;
+    height: 27px;
+    background-image: url(../image/mobile-one-palm.png);
+}
+
+.game-world{
+    display: block;
+    width: 421px;
+    height: 152px;
+    margin-top: 60px;
+    color: transparent;
+    background-image: url(../image/mobile-one-character.png);
+    background-repeat: no-repeat;
+}
+
+.download2{
+    width: 100%;
+    height: 151px;
+    margin-top: 35px;
+}
+
+.download2 .code{
+    display: inline-block;
+}
+
+.code{
+    float: left;
+    width: 151px;
+    height: 151px;
+    background-image: url(../image/mobile-one-code.png);
+}
+
+.IP{
+    display: inline-block;
+    margin: 10px 23px;
+    width: 196px;
+    height: 50px;
+    background-image: url(../image/mobile-one-download.png);
+    background-position: 0 -50px;
+}
+
+.AD{
+    display: inline-block;
+    margin: 10px 23px;
+    width: 196px;
+    height: 50px;
+    background-image: url(../image/mobile-one-download.png);
+}
+
+.first-part .big-background-bottom{
+    position: relative;
+}
+
+.big-background-bottom{
+    position: absolute;
+    left: 70px;
+    bottom: 0;
+    width: 580px;
+    height: 767px;
+}
+
+.one-background{
+    position: absolute;
+    left: 36%;
+    top: 179px;
+    z-index: 3;
+    width: 282px;
+    height: 421px;
+    margin-left: -100px;
+    background-image: url(../image/mobile-zi-long1.png);
+    background-repeat: no-repeat;
+}
+
+.two-background{
+    position: absolute;
+    left: -143px;
+    bottom: -271px;
+    width: 683px;
+    height: 670px;
+    background-image: url(../image/mobile-zi-logo2.png);
+    background-repeat: no-repeat;
+}
+
+.three-background{
+    position: absolute;
+    right: -29px;
+    bottom: -86px;
+    z-index: 2;
+    width: 161px;
+    height: 167px;
+    background-image: url(../image/mobile-zi-logo3.png);
+    background-repeat: no-repeat;
+}
+
+.four-background{
+    position: absolute;
+    left: -216px;
+    bottom: 192px;
+    z-index: 0;
+    width: 84px;
+    height: 56px;
+    background-image: url(../image/mobile-zi-logo4.png);
+    background-repeat: no-repeat;
+}
+
+.five-background{
+    position: absolute;
+    left: -195px;
+    top: 405px;
+    z-index: 0;
+    width: 216px;
+    height: 162px;
+    background-image: url(../image/mobile-zi-logo5.png);
+    background-repeat: no-repeat;
+}
+
+.second-part{
+    height: 850px;
+    background-image: url(../image/mobile-two-big-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.two-content{
+    height: 100%;
+    width: 1260px;
+}
+
+.two-left{
+    position: absolute;
+    top: 103px;
+    left: 30px;
+    width: 581px;
+    height: 674px;
+    background-image: url(../image/mobile-two-left.png);
+    background-repeat: no-repeat;
+}
+
+.two-conter{
+    position: absolute;
+    top: 369px;
+    right: 221px;
+    width: 366px;
+    height: 120px;
+    background-image: url(../image/mobile-two-community.png);
+    background-repeat: no-repeat;
+}
+
+.two-right{
+    position: absolute;
+    top: 312px;
+    right: 25px;
+    width: 163px;
+    height: 163px;
+    background-image: url(../image/mobile-gear1.png);
+    background-repeat: no-repeat;
+}
+
+.gear1{
+    position: absolute;
+    left: 48px;
+    top: 37px;
+    width: 19px;
+    height: 50px;
+    background-image: url(../image/mobile-digital.png);
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+}
+
+.gear2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 71px;
+    height: 71px;
+    background-image: url(../image/mobile-gear2.png);
+    background-repeat: no-repeat;
+}
+
+.third-part{
+    height: 850px;
+    background-image: url(../image/mobile-three-big-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.three-left{
+    position: absolute;
+    top: 327px;
+    left: 130px;
+    width: 100%;
+}
+
+.three-left>span{
+    display: block;
+    width: 440px;
+    height: 140px;
+    background-image: url(../image/mobile-three-exclusive.png);
+    background-repeat: no-repeat;
+}
+
+.three-gear{
+    position: absolute;
+    top: -36px;
+    left: -38px;
+    width: 163px;
+    height: 163px;
+    background-image: url(../image/mobile-gear1.png);
+    background-repeat: no-repeat;
+}
+
+.three-digital{
+    position: absolute;
+    top: 36px;
+    left: 47px;
+    width: 30px;
+    height: 50px;
+    background-image: url(../image/mobile-digital.png);
+    background-position: 0 -100px;
+}
+
+.three-gear-two{
+    position: absolute;
+    left: -43px;
+    bottom: 1px;
+    width: 71px;
+    height: 71px;
+    background-image: url(../image/mobile-gear2.png);
+}
+
+.three-right{
+    position: relative;
+}
+
+.three-phone{
+    position: absolute;
+    top: 104px;
+    right: 236px;
+    width: 340px;
+    height: 642px;
+    z-index: 1;
+    background-image: url(../image/mobile-three-game.png);
+}
+
+.three-limit{
+    position: absolute;
+    top: 250px;
+    left: 615px;
+    width: 144px;
+    height: 53px;
+    z-index: 2;
+    background-image: url(../image/mobile-three-limit.png);
+}
+
+.three-app{
+    position: absolute;
+    top: 403px;
+    right: 193px;
+    width: 164px;
+    height: 53px;
+    z-index: 2;
+    background-image: url(../image/mobile-three-APP.png);
+}
+
+.three-eight-fold{
+    position: absolute;
+    top: 296px;
+    right: 71px;
+    width: 148px;
+    height: 79px;
+    background-image: url(../image/mobile-fold1.png);
+}
+
+
+.three-seven-fold{
+    position: absolute;
+    top: 542px;
+    left: 530px;
+    width: 149px;
+    height: 89px;
+    background-image: url(../image/mobile-fold2.png);
+}
+
+.fourth-part{
+    height: 850px;
+    background-image: url(../image/mobile-four-big-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.four-content{
+    position: relative;
+}
+
+.four-phone{
+    position: absolute;
+    left: 151px;
+    top: 104px;
+    width: 460px;
+    height: 642px;
+    background-image: url(../image/mobile-four-LOL.png);
+}
+
+.four-record{
+    position: absolute;
+    top: 335px;
+    right: 75px;
+    width: 516px;
+    height: 139px;
+    background-image: url(../image/mobile-four-record.png);
+}
+
+.four-gear1{
+    position: absolute;
+    top: 301px;
+    right: -77px;
+    width: 122px;
+    height: 122px;
+    background-image: url(../image/mobile-gear1.png);
+}
+
+.four-digital{
+    position: absolute;
+    top: 37px;
+    left: 46px; 
+    width: 29px;
+    height: 50px;
+    background-image: url(../image/mobile-digital.png);
+    background-position: 0 -150px;
+}
+
+.four-gear2{
+    position: absolute;
+    bottom: -38px;
+    right: 91px;
+    width: 71px;
+    height: 71px;
+    background-image: url(../image/mobile-gear2.png);
+}
+
+.fifth-part{
+    height: 850px;
+    background-image: url(../image/mobile-five-big-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.fifth-content{
+    position: relative;
+}
+
+.fifth-gear1{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    width: 122px;
+    height: 122px;
+    background-image: url(../image/mobile-gear1.png);
+}
+
+.fifth-digital{
+    position: absolute;
+    top: 37px;
+    left: 42px;
+    width: 32px;
+    height: 50px;
+    background-image: url(../image/mobile-digital.png);
+    background-position: 0 0;
+}
+
+.fifth-gear2{
+    position: absolute;
+    bottom: -41px;
+    left: -41px;
+    width: 71px;
+    height: 71px;
+    background-image: url(../image/mobile-gear2.png);
+}
+
+.fifth-record{
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 339px;
+    width: 460px;
+    height: 140px;
+    background-image: url(../image/mobile-five-live.png);
+    background-position: 100% 0;
+}
+
+.fifth-right{
+    position: absolute;
+    top: 103px;
+    right: 250px;
+    width: 342px;
+    height: 644px;
+    z-index: 1;
+}
+
+.fifth-phone{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 373px;
+    height: 674px;
+    z-index: 1;
+    background-image: url(../image/mobile-five-phone.png);
+}
+
+.fifth-phone-img{
+    position: absolute;
+    top: 62px;
+    left: -6px;
+    width: 324px;
+    height: 576px;
+    z-index: 1;
+    background-image: url(../image/mobile-five-phone-img.png);
+}
+
+.fifth-bettas{
+    position: absolute;
+    top: 277px;
+    left: -118px;
+    width: 123px;
+    height: 123px;
+    z-index: 1;
+    background-image: url(../image/mobile-five-bettas.png);
+}
+
+.fifth-QQ{
+    position: absolute;
+    top: 68px;
+    right: -80px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    background-image: url(../image/mobile-five-QQ.png);
+}
+
+.fifth-tiger{
+    position: absolute;
+    top: 381px;
+    right: -63px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    background-image: url(../image/mobile-five-tiger.png);
+}
+
+.fifth-barrage{
+    position: absolute;
+    top: 132px;
+    left: -95px;
+    width: 200%;
+    height: 100%;
+    background-image: url(../image/mobile-five-barrage.png);
+    background-repeat: no-repeat;
+}
+
+/* 底部 */
+.bottom-content{
+    height: 300px;
+    background-color: #0d0d0d;
+}
+
+.bottom-content-banxin{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.download-client,.channel,.friendship{
+    display: inline-block;
+}
+
+.download-client,.channel,.friendship {
+    position: relative;
+}
+
+.download-client{
+    margin-right: 178px;
+}
+
+.download-client>h3,.channel>h3{
+    font-size: 16px;
+    color: #6e6e6e;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.download-client span{
+    position: absolute;
+    top: 57px;
+    left: 116px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #58585a;
+    text-align: center;
+}
+
+.download-client span>img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    border: 1px solid #3a3a3a;
+    border-radius: 50%;
+}
+
+.channel span{
+    position: absolute;
+    top: 57px;
+    left: 116px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #58585a;
+    text-align: center;
+}
+
+.channel span:last-child{
+    position: absolute;
+    top: 57px;
+    left: 190px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #58585a;
+    text-align: center;
+}
+
+.channel span>img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    border: 1px solid #3a3a3a;
+    border-radius: 50%;
+}
+
+.friendship{
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 190px;
+}
+
+
+.friendship>h3{
+    font-size: 16px;
+    color: #6e6e6e;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.friendship-content{
+    position: relative;
+    float: right;
+}
+
+.friendship-content>ul{
+    position: absolute;
+    top: 0;
+    right: -160px;
+    margin-top: -25px;
+}
+
+.friendship-content li{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.friendship-content li{
+    float: left;
+    width: 50%;
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+.friendship-content a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #58585a;
+}
+
+.service{
+    text-align: center;
+    line-height: 2;
+    margin-top: 100px;
+}
+
+.service a{
+    color: #5d5d5d;
+}
+
+.service p{
+    color: #5d5d5d;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}

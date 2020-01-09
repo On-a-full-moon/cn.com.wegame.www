@@ -1,0 +1,768 @@
+﻿/* 版心 */
+.banxin{
+    width: 1160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 清除浮动 */
+.clearfix:before ,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+/* 顶部 */
+body{
+    width: 100%;
+    background-color: #fbf9f6;
+}
+
+.navigation-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #191919;
+}
+
+.navigation-logo{
+    float: left;
+    width: 233px;
+    height: 40px;
+    background-image: url(../image/logo-top.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.center-container{
+    float: left;
+    margin-left: 413px;
+}
+
+.center-container a{
+    text-decoration: none;
+    color: #8c8c8c;
+    line-height: 80px;
+    margin-right: 63px;
+    font-size: 15px;
+}
+.center-container .client{
+    padding: 30px 20px;
+    color: #fff;
+    margin-right: 43px;
+    background-color: #353535;
+}
+
+.navigation-bar-right{
+    float: right;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.navigation-bar-right a{
+    text-decoration: none;
+    color: #8c8c8c;
+    line-height: 10px;
+    font-size: 15px;
+    margin-left: 19px;
+}
+
+.download{
+    padding: 14px 22px;
+    border: 1px solid #303030;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.navigation-bar-right .register{
+    margin-right: 50px;
+}
+
+/* 顶部LOGO */
+.top-box{
+    position: relative;
+    width: 100%;
+    height: 865px;
+    overflow: hidden;
+}
+
+.top-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2276px;
+    height: 865px;
+    background-color: #000;
+    margin-left: -1138px;
+}
+
+.top-background1{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/plan-top-background-img1.png);
+    z-index: 1;
+}
+
+.top-background2{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/plan-top-background-img2.png);
+    z-index: 1;
+}
+
+.top-background3{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/plan-top-background-img3.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.top-background4{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 2175px;
+    height: 491px;
+    background-image: url(../image/plan-top-background-img4.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+    margin-left: -1088px;
+}
+
+.top-background5{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 714px;
+    height: 723px;
+    background-image: url(../image/plan-top-background-img5.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+    margin-left: -363px
+}
+
+
+.top-background6{
+    position: absolute;
+    bottom: 278px;
+    left: 50%;
+    width: 218px;
+    height: 170px;
+    background-image: url(../image/plan-top-background-img6.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+    margin-left: -350px;
+}
+
+.top-background7{
+    position: absolute;
+    bottom: 298px;
+    left: 50%;
+    width: 86px;
+    height: 68px;
+    background-image: url(../image/plan-top-background-img7.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+    margin-left: -179px;
+}
+
+.top-background8{
+    position: absolute;
+    bottom: 256px;
+    left: 50%;
+    width: 204px;
+    height: 160px;
+    background-image: url(../image/plan-top-background-img8.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.top-background9{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 1475px;
+    height: 580px;
+    background-image: url(../image/plan-top-background-img9.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.top-background10{
+    position: absolute;
+    bottom: 260px;
+    left: 50px;
+    width: 569px;
+    height: 283px;
+    background-image: url(../image/plan-top-background-img10.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.top-background11{
+    position: absolute;
+    bottom: 260px;
+    right: 50px;
+    width: 392px;
+    height: 190px;
+    background-image: url(../image/plan-top-background-img11.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.top-background12{
+    position: absolute;
+    top: 114px;
+    right: 602px;
+    width: 246px;
+    height: 194px;
+    background-image: url(../image/plan-top-background-img12.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.top-background13{
+    position: absolute;
+    top: 442px;
+    left: 318px;
+    width: 477px;
+    height: 252px;
+    background-image: url(../image/plan-top-background-img13.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.top-content{
+    position: absolute;
+    z-index: 111;
+    bottom: 120px;
+    left: 50%;
+    margin-left: -72px;
+}
+
+.top-content a{
+    display: inline-block;
+    width: 169px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #423411;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+
+}
+.top-content p{
+    position: absolute;
+    top: 33px;
+    right: -128px;
+    width: 420px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 28px;
+}
+
+/* 第一部分 */
+.one-box{
+    width: 100%;
+    height: 852px;
+    background-image: url(../image/plan-one-background.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.one-top-img{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.one-introduce{
+    width: 531px;
+    height: 71px;
+    line-height: 1.2;
+    font-size: 15px;
+    margin-top: 66px;
+    margin-left: 310px;
+}
+
+.one-bottom-content{
+    margin-right: -100px;
+}
+
+
+.one-img{
+    float: left;
+    width: 25%;
+    height: 330px;
+    padding-right: 100px;
+}
+
+
+.one-img img{
+    display: block;
+    width: 112px;
+    height: 112px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.one-title{
+    font-size: 24px;
+    line-height: 24px;
+    color: #131315;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.one-title-content{
+    width: 197px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5e5e61;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 第二部分 */
+.two-box{
+    width: 100%;
+    height: 850px;
+    background-image: url(../image/plan-two-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.two-content{
+    display: flex;
+    width: 100%;
+}
+
+.two-top-img{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.two-content{
+    color: #f1f1f1;
+    margin-right: -175px;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.two-content>li{
+    display: inline-flex;
+}
+
+.two-content>li{
+    float: left;
+    width: 270px;
+    height: 400px;
+    background-color: rgba(22,21,21,.5);
+    padding: 40px;
+    margin-top: 75px;
+    margin-right: 175px;
+
+}
+
+.two-content-box{
+    position: relative;
+    text-align: center;
+}
+
+
+.two-content-box:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 155px;
+    left: 250px;
+    width: 118px;
+    height: 10px;
+    background-image: url(../image/plan-two-img4.png);
+    background-repeat: no-repeat;
+    margin-top: -10px;  
+}
+.two-content li:nth-child(3) .two-content-box:before{
+    background-image:none;
+    margin-top: 0px;  
+}
+
+.two-sequence{
+    color: #ffc800;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.two-content-box h3{
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.two-content-box p{
+    width: 182px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #919191;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.two-conditions{
+    position: absolute;
+    top: 50%;
+    right: -159px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: -40px;
+}
+
+.immediately {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.immediately a{
+    display: inline-block;
+    width: 208px;
+    height: 56px;
+    padding: 10px 28px;
+    background-color: #fa0;
+    background-image: -webkit-linear-gradient(0deg,#fa0,#ffc847);
+    font-size: 20px;
+    line-height: 36px;
+    color: #161418;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    border-radius: 28px;
+}
+
+.immediately a:hover{
+    background-color: #ffc800;
+}
+
+/* 第三部分 */
+.three-box{
+    width: 100%;
+    height: 1200px;
+    background-image: url(../image/plan-three-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.three-img{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.three-content{
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.three-left{
+    float: left;
+    width: 50%;
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+.three-right{
+    float: right;
+    width: 50%;
+    padding-right: 35px;
+    padding-left: 15px;
+}
+
+.three-example{
+    width: 530px;
+    height: 258px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+.three-small-box{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    padding: 45px 56px;
+}
+
+.three-problem{
+    font-size: 20px;
+    color: #131315;
+    padding-bottom: 34px;
+    line-height: 28px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.three-problem:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #ffd023;
+    display: inline-block;
+    margin-left: -21px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.three-answer{
+    font-size: 16px;
+    color: #87878d;
+    line-height: 24px;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* 第四部分 */
+.four-box{
+    width: 100%;
+    height: 437px;
+    background-image: url(../image/plan-four-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.four-img{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.four-partner{
+    text-align: center;
+}
+
+.four-partner li{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 110px 78px;
+}
+
+/* 第五部分 */
+.five-box{
+    width: 100%;
+    height: 526px;
+    background-image: url(../image/plan-five-background.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.five-img{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.five-contact{
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.five-contact li{
+    position: relative;
+    width: 288px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.five-contact li::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 120px;
+    background: linear-gradient(180deg,#3d3b32,#645e48);
+}
+
+.five-contact img{
+    margin-top: 17px;
+}
+
+.five-content{
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 28px;
+}
+
+.five-title{
+    font-size: 14px;
+    color: #87878d;
+    padding-top: 10px;
+}
+
+/* 底部 */
+.bottom-content{
+    height: 300px;
+    background-color: #0d0d0d;
+}
+
+.bottom-content-banxin{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.download-client,.channel,.friendship{
+    display: inline-block;
+}
+
+.download-client,.channel,.friendship {
+    position: relative;
+}
+
+.download-client{
+    margin-right: 178px;
+}
+
+.download-client>h3,.channel>h3{
+    font-size: 16px;
+    color: #6e6e6e;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.download-client span{
+    position: absolute;
+    top: 57px;
+    left: 116px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #58585a;
+    text-align: center;
+}
+
+.download-client span>img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    border: 1px solid #3a3a3a;
+    border-radius: 50%;
+}
+
+.channel span{
+    position: absolute;
+    top: 57px;
+    left: 116px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #58585a;
+    text-align: center;
+}
+
+.channel span:last-child{
+    position: absolute;
+    top: 57px;
+    left: 190px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #58585a;
+    text-align: center;
+}
+
+.channel span>img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    border: 1px solid #3a3a3a;
+    border-radius: 50%;
+}
+
+.friendship{
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 190px;
+}
+
+
+.friendship>h3{
+    font-size: 16px;
+    color: #6e6e6e;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.friendship-content{
+    position: relative;
+    float: right;
+}
+
+.friendship-content>ul{
+    position: absolute;
+    top: 0;
+    right: -160px;
+    margin-top: -25px;
+}
+
+.friendship-content li{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.friendship-content li{
+    float: left;
+    width: 50%;
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+.friendship-content a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #58585a;
+}
+
+.service{
+    text-align: center;
+    line-height: 2;
+    margin-top: 100px;
+}
+
+.service a{
+    color: #5d5d5d;
+}
+
+.service p{
+    color: #5d5d5d;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
